@@ -21,6 +21,8 @@
 		EF0436E022AD69E300C144B0 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0436DF22AD69E300C144B0 /* Alamofire.framework */; };
 		EF5D78EE22AEE6390030B606 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5D78ED22AEE6390030B606 /* Nimble.framework */; };
 		EF5D78F022AEE6390030B606 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5D78EF22AEE6390030B606 /* Quick.framework */; };
+		EF5D78F222AEF01F0030B606 /* DataViewAppStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5D78F122AEF01F0030B606 /* DataViewAppStructure.swift */; };
+		EF5D78F422AEF24D0030B606 /* DataViewAppUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5D78F322AEF24D0030B606 /* DataViewAppUnitTest.swift */; };
 		EF825C0E22ADDA8C006E4E22 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF825C0D22ADDA8C006E4E22 /* SwiftyJSON.framework */; };
 		EF825C1022AE0CFF006E4E22 /* ItemListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF825C0F22AE0CFF006E4E22 /* ItemListCell.swift */; };
 /* End PBXBuildFile section */
@@ -68,6 +70,8 @@
 		EF0436DF22AD69E300C144B0 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF5D78ED22AEE6390030B606 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF5D78EF22AEE6390030B606 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5D78F122AEF01F0030B606 /* DataViewAppStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewAppStructure.swift; sourceTree = "<group>"; };
+		EF5D78F322AEF24D0030B606 /* DataViewAppUnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewAppUnitTest.swift; sourceTree = "<group>"; };
 		EF825C0D22ADDA8C006E4E22 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF825C0F22AE0CFF006E4E22 /* ItemListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListCell.swift; sourceTree = "<group>"; };
 		FBC6CB07012919108EB5F406 /* Pods-DataViewAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataViewAppUITests.release.xcconfig"; path = "Target Support Files/Pods-DataViewAppUITests/Pods-DataViewAppUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -174,6 +178,8 @@
 			children = (
 				EF0436BF22AAB51D00C144B0 /* DataViewAppTests.swift */,
 				EF0436C122AAB51D00C144B0 /* Info.plist */,
+				EF5D78F122AEF01F0030B606 /* DataViewAppStructure.swift */,
+				EF5D78F322AEF24D0030B606 /* DataViewAppUnitTest.swift */,
 			);
 			path = DataViewAppTests;
 			sourceTree = "<group>";
@@ -431,6 +437,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF0436C022AAB51D00C144B0 /* DataViewAppTests.swift in Sources */,
+				EF5D78F222AEF01F0030B606 /* DataViewAppStructure.swift in Sources */,
+				EF5D78F422AEF24D0030B606 /* DataViewAppUnitTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
